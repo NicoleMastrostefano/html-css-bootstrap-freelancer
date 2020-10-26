@@ -52,3 +52,8 @@ footer {
   height: 100px;
   background-color: lightblue;
 }
+
+#footer_bottom {
+  height:50px;
+  background-color: blue;
+}
