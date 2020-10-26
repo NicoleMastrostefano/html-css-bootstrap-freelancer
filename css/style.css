@@ -8,7 +8,7 @@
   border: 1px solid black;
 }
 
-.header_top .col-xs-6 {
+#header_top [class*="col-"] {
   height: 80px;
   background-color: blue;
 }
@@ -19,12 +19,12 @@
   border: 1px solid black;
 }
 
-section.portfolio {
+#portfolio {
   background-color: lightcoral;
   padding: 50px;
 }
 
-.portfolio .col-xs-12 {
+#portfolio .col-xs-12 {
   height: 300px;
   background-color: orange;
 }
@@ -32,4 +32,13 @@ section.portfolio {
 main,
 footer {
   text-align: center;
+}
+
+#about {
+  background-color: YELLOW;
+  padding: 50px;
+}
+#about [class*="col-"] {
+  height: 150px;
+  background-color: lightgreen;
 }
