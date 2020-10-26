@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
 
 [class*="col-"] {
   border: 1px solid black;
@@ -5,14 +10,26 @@
 
 .header_top .col-xs-6 {
   height: 80px;
+  background-color: blue;
 }
 
 .header_bottom {
   height: 400px;
+  background: pink;
   border: 1px solid black;
+}
+
+section.portfolio {
+  background-color: lightcoral;
+  padding-bottom: 50px;
 }
 
 .portfolio .col-xs-12 {
   height: 300px;
-
+  background-color: orange;
+}
+/* PROVE */
+main,
+footer {
+  text-align: center;
 }
