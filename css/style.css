@@ -36,9 +36,19 @@ footer {
 
 #about {
   background-color: YELLOW;
-  padding: 50px;
+  padding-bottom: 50px;
 }
 #about [class*="col-"] {
-  height: 150px;
+  height: 300px;
   background-color: lightgreen;
+}
+
+#contact {
+    height: 300px;
+  }
+
+
+#footer_top [class*="col-"] {
+  height: 100px;
+  background-color: lightblue;
 }
