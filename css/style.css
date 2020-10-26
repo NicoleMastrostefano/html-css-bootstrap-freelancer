@@ -21,7 +21,7 @@
 
 section.portfolio {
   background-color: lightcoral;
-  padding-bottom: 50px;
+  padding: 50px;
 }
 
 .portfolio .col-xs-12 {
