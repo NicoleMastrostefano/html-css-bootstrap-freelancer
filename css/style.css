@@ -103,7 +103,17 @@ main i {
   margin: 0 80px;
 }
 
+.btn_about {
+  margin-top: 30px;
+  border: 1px solid white;
+  color:white;
+  background-color:#19BC9C;
+}
 
+.btn_about i {
+  font-size: 12px;
+  margin: 0 5px;
+}
 #contact {
     height: 400px;
   }
