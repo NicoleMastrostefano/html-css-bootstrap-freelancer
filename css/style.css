@@ -8,6 +8,9 @@
   border: 1px solid black;
 }
 
+#header_top {
+  background-color:blue;
+}
 #header_top [class*="col-"] {
   height: 80px;
   background-color: blue;
@@ -24,11 +27,11 @@
   padding-bottom: 50px;
 }
 
-#portfolio .col-xs-12 {
+#portfolio [class*="col-"]  {
   height: 300px;
   background-color: orange;
 }
-/* PROVE */
+
 main,
 footer {
   text-align: center;
@@ -39,14 +42,17 @@ footer {
   padding-bottom: 50px;
 }
 #about [class*="col-"] {
-  height: 300px;
+  height: 200px;
   background-color: lightgreen;
 }
 
 #contact {
-    height: 300px;
+    height: 400px;
   }
 
+#footer_top {
+  background-color: lightblue;
+}
 
 #footer_top [class*="col-"] {
   height: 100px;
