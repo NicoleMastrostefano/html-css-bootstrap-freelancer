@@ -1,49 +1,99 @@
-* {
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+body {
+  color: white;
+  font-size: 18px;
 }
 
-[class*="col-"] {
+/* debug */
+/* [class*="col-"] {
   border: 1px solid black;
-}
+} */
+
 
 #header_top {
-  background-color:blue;
+  width: 100%;
+  height: 80px;
+  background-color:#2C3F51;
+  position: fixed;
+  left: 0;
+  top:0;
+  z-index: 1;
 }
+
+#header_top h3 {
+  line-height: 80px;
+  margin:0;
+}
+
 #header_top [class*="col-"] {
   height: 80px;
-  background-color: blue;
+  line-height: 80px;
+}
+
+.nav_list {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav_list li {
+  display: inline-block;
+}
+
+.nav_list li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.nav_list li a:hover {
+  color: #19BC9C;
 }
 
 .header_bottom {
-  height: 400px;
-  background: pink;
-  border: 1px solid black;
-}
-
-#portfolio {
-  background-color: lightcoral;
+  background: #19BC9C;
+  padding-top: 150px;
   padding-bottom: 50px;
 }
 
-#portfolio [class*="col-"]  {
-  height: 300px;
-  background-color: orange;
+.header_bottom img {
+  height: 200px;
 }
 
-main,
-footer {
-  text-align: center;
+.header_bottom hr {
+  width: 100px;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header_bottom i {
+  color: white;
+  font-size: 30px;
+  margin: 15px 15px;
+  vertical-align: middle;
+}
+
+#portfolio {
+  background-color: white;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.portfolio_item {
+  height: 300px;
+  border-radius: 5px;
+  margin-bottom: 30px;
 }
 
 #about {
-  background-color: YELLOW;
+  background-color:#19BC9C;
   padding-bottom: 50px;
 }
 #about [class*="col-"] {
   height: 200px;
-  background-color: lightgreen;
+
 }
 
 #contact {
@@ -51,15 +101,15 @@ footer {
   }
 
 #footer_top {
-  background-color: lightblue;
+  background-color: #2C3F51;
 }
 
 #footer_top [class*="col-"] {
   height: 100px;
-  background-color: lightblue;
+
 }
 
 #footer_bottom {
   height:50px;
-  background-color: blue;
+  background-color:#2C3F51;
 }

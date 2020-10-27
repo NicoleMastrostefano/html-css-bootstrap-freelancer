@@ -3,37 +3,71 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css" integrity="sha512-f73UKwzP1Oia45eqHpHwzJtFLpvULbhVpEJfaWczo/ZCV5NWSnK4vLDnjTaMps28ocZ05RbI83k2RlQH92zy7A==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title></title>
   </head>
   <body>
+    <!-- intestazione pagina -->
     <header>
       <nav id="header_top">
         <div class="container">
           <div class="row">
-            <div class="col-xs-6 col-md-6 col-lg-6">.col-xs-6</div>
-            <div class="col-xs-6 col-md-6 col-lg">.col-xs-6</div>
+            <div class="col-xs-6 text-uppercase">
+              <h3>start bootstrap</h3>
+            </div>
+            <div class="col-xs-6 text-right text-uppercase">
+              <a href="#" class="visible-xs-inline-block"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+                <!-- modificare  gliphicon humb icon -->
+              <ul class="nav_list hidden-xs">
+                <li><a href="portfolio">portfolio</a></li>
+                <li><a href="About">About</a></li>
+                <li><a href="contact">contact</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
-      <div class="header_bottom"></div>
+      <div class="header_bottom text-center text-uppercase">
+        <img src="img/avatar.svg" alt="">
+        <h1>start bootstrap</h1>
+          <!-- provare anche con gliphicon -->
+        <hr> <i class="fas fa-star"></i> <hr>
+        <p class="text-uppercase">graphic designer - Web designer - illustrator  </p>
+      </div>
     </header>
+    <!-- /intestazione pagina -->
+    <!-- contenuto pagina -->
     <main>
+      <!-- sezione portfolio -->
       <section id="portfolio">
         <h2>PORTFOLIO</h2>
-        <div class="container">
+        <div class="container text-center">
           <div class="row">
-            <div class="col-xs-12 col-md-6 col-lg-4">.col-xs-12</div>
-            <div class="col-xs-12 col-md-6 col-lg-4">.col-xs-12</div>
-            <div class="col-xs-12 col-md-6 col-lg-4">.col-xs-12</div>
-            <div class="col-xs-12 col-md-6 col-lg-4">.col-xs-12</div>
-            <div class="col-xs-12 col-md-6 col-lg-4">.col-xs-12</div>
-            <div class="col-xs-12 col-md-6 col-lg-4">.col-xs-12</div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <img class="portfolio_item"src="img/cabin.png" alt="">
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <img class="portfolio_item"src="img/cake.png" alt="">
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <img class="portfolio_item"src="img/circus.png" alt="">
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <img class="portfolio_item"src="img/game.png" alt="">
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <img class="portfolio_item"src="img/safe.png" alt="">
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <img class="portfolio_item"src="img/submarine.png" alt="">
+            </div>
           </div>
         </div>
       </section>
-      <section id="about">
+      <!-- /sezione portfolio -->
+      <section id="about"class="text-center">
         <h2>ABOUT</h2>
         <div class="container">
           <div class="row">
@@ -45,6 +79,8 @@
       <section id="contact">
       </section>
     </main>
+    <!-- /contenuto pagina -->
+    <!-- chiusura pagina -->
     <footer id="footer_top">
       <div class="container">
         <div class="row">
@@ -55,6 +91,7 @@
       </div>
       <div id="footer_bottom"></div>
     </footer>
+    <!-- chiusura pagina -->
 
   </body>
 </html>
