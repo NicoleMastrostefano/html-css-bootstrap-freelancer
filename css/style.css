@@ -61,14 +61,11 @@ body {
 }
 
 hr {
+  border: 2px solid;
   width: 100px;
   border-radius: 10px;
   display: inline-block;
   vertical-align: middle;
-}
-
-.header_bottom hr {
-  border: 2px solid white;
 }
 
 header i,
@@ -95,21 +92,17 @@ main i {
   margin-bottom: 30px;
 }
 
-section#portfolio hr {
-  border: 2px solid black;
-}
-
 
 #about {
   background-color:#19BC9C;
+  margin: 0 auto;
   padding: 50px;
 }
 
-
-#about [class*="col-"] {
-  height: 200px;
-
+#wrapper {
+  margin: 0 80px;
 }
+
 
 #contact {
     height: 400px;
@@ -121,7 +114,6 @@ section#portfolio hr {
 
 #footer_top [class*="col-"] {
   height: 100px;
-
 }
 
 #footer_bottom {
