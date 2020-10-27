@@ -60,22 +60,30 @@ body {
   height: 200px;
 }
 
-.header_bottom hr {
+hr {
   width: 100px;
-  border: 2px solid white;
   border-radius: 10px;
   display: inline-block;
   vertical-align: middle;
 }
 
-.header_bottom i {
-  color: white;
+.header_bottom hr {
+  border: 2px solid white;
+}
+
+header i,
+main i {
   font-size: 30px;
   margin: 15px 15px;
   vertical-align: middle;
 }
 
+.header_bottom i {
+  color: white;
+}
+
 #portfolio {
+  color: black;
   background-color: white;
   padding-bottom: 50px;
   width: 100%;
@@ -87,10 +95,17 @@ body {
   margin-bottom: 30px;
 }
 
+section#portfolio hr {
+  border: 2px solid black;
+}
+
+
 #about {
   background-color:#19BC9C;
-  padding-bottom: 50px;
+  padding: 50px;
 }
+
+
 #about [class*="col-"] {
   height: 200px;
 
