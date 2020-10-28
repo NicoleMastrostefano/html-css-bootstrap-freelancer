@@ -3,6 +3,12 @@ body {
   font-size: 18px;
 }
 
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
 #header_top {
   width: 100%;
   height: 80px;
@@ -44,10 +50,20 @@ body {
   color: #19BC9C;
 }
 
+#hamb_icon {
+  height: 42px;
+  padding: 10px;
+  line-height: 24px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
 .header_bottom {
   background: #19BC9C;
   padding-top: 150px;
   padding-bottom: 50px;
+  color: white;
 }
 
 .header_bottom img {
@@ -67,10 +83,6 @@ main i {
   font-size: 30px;
   margin: 15px 15px;
   vertical-align: middle;
-}
-
-.header_bottom i {
-  color: white;
 }
 
 #portfolio {
@@ -169,4 +181,4 @@ main i {
   line-height: 60px;
 }
 
-/* finire media query ed icone */
+/* media query 
