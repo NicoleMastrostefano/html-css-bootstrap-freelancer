@@ -165,8 +165,9 @@ main i {
 }
 
 .footer_icons i {
-  width: 45px;
-  height: 45px;
+  width: 44px;
+  height: 44px;
+  line-height: 22px;
   color: white;
   padding: 10px;
   border: 1px solid white;
