@@ -88,7 +88,7 @@ main i {
 #portfolio {
   color: black;
   background-color: white;
-  padding-bottom: 50px;
+  padding: 50px 0px;
   width: 100%;
 }
 
@@ -111,7 +111,7 @@ main i {
 }
 
 .btn_about {
-  margin-top: 30px;
+  margin: 30px;
   border: 1px solid white;
   color:white;
   background-color:#19BC9C;
@@ -124,8 +124,7 @@ main i {
 
 #contact {
   color: black;
-  height: 600px;
-  padding-top: 50px 0;
+  padding: 50px 50px;
 }
 
 #form_wrapper {
@@ -146,6 +145,7 @@ main i {
   border: 0px;
   border-bottom: 1px solid black;
   margin-top: 30px;
+  resize:none;
 }
 
 .btn_send {
