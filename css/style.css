@@ -156,6 +156,7 @@ main i {
   color: white;
   background-color: #19BC9C;
   padding: 8px 12px;
+  margin-top: 10px;
 }
 
 #footer_top {
@@ -163,9 +164,12 @@ main i {
   padding: 80px 100px;
 }
 
-#footer_top a {
+#footer_top  a {
   color: #19BC9C;
-  padding-right: 10px;
+}
+
+.footer_icons a {
+  padding: 0px 10px;
 }
 
 .footer_icons i {
